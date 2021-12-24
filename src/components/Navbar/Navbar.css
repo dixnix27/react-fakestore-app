@@ -2,4 +2,17 @@
     .nav-style{
     height: 80px;
 }
-  }
+}
+.wrap{
+    height: 80px;
+    display: flex;
+}
+.navigation{
+    display: flex;
+    padding: 8px;
+}
+
+.auth{
+    display: flex;
+    margin-left: 200px;
+}
