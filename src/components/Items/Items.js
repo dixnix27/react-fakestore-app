@@ -23,7 +23,7 @@ const Items = () => {
           <div className="row">
             {products.map((product) => {
               return (
-                <div className="col-md-6 col-lg-4 col-xl-3" key={product.id}>
+                <div className="col-md-6 col-lg-4 col-xl-3" key={product._id}>
                   <div id="product-1" className="single-product">
                     <div
                       className="part-1 "

@@ -8,7 +8,7 @@ const ProductProvider = ({ children }) => {
   console.log("products:", products);
 
   useEffect(() => {
-    axios("https://fakestoreapi.com/products").then((response) =>
+    axios("https://fake-store-app.herokuapp.com/api/products").then((response) =>
       setProducts(response.data)
     );
   }, []);
